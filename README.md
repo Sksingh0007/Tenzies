@@ -1,12 +1,70 @@
-# React + Vite
+# 🎲 Tenzies Game - React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and fun dice game built with React where the goal is to roll until all dice show the same number. Click each die to "freeze" it between rolls.
 
-Currently, two official plugins are available:
+## 📦 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Roll 10 dice until all values match
+- Hold dice to keep their values between rolls
+- Confetti celebration on win
+- Smart toggle for dice with same value
+- Roll counter to track your attempts
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+Follow these instructions to set up and run the project locally.
+
+### 📁 Clone the repository
+
+```bash
+git clone https://github.com/Sksingh0007/tenzies-game.git
+cd tenzies-game
+```
+---
+### Install dependencies
+```bash
+npm install
+```
+---
+### Run the development server
+```bash
+npm run dev
+```
+---
+The app will run at http://localhost:5173 (or whatever Vite config you use).
+---
+
+### 🎮 Gameplay
+Click a die to "hold" it (prevent it from rolling).
+
+Roll until all dice are the same.
+
+Clicking a held die again will unhold all dice with the same value.
+
+When all dice are held and have the same number, you win!
+
+Press New Game to reset.
+
+
+### 📦 Build for production
+---
+```bash
+npm run build
+```
+### 📄 License
+MIT
+
+Built with ❤️ using React + Vite.
+
+---
+
+
+
+
+
+
+
+
+
