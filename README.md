@@ -2,7 +2,7 @@
 
 A simple and fun dice game built with React where the goal is to roll until all dice show the same number. Click each die to "freeze" it between rolls.
 
-## 📦 Features live link https://tenzies-tan-seven.vercel.app/
+## 📦 Features (live link https://tenzies-tan-seven.vercel.app/)
 
 - Roll 10 dice until all values match
 - Hold dice to keep their values between rolls
